@@ -1,32 +1,32 @@
 import React from "react";
-import imgg from '../img/hero1.svg'
-import '../index.css'
+import imgg from "../img/hero1.svg";
+import "../index.css";
 
 export const Home = () => {
   return (
     <div>
-      <div class="hero" id="home">
-        <div class="container-fluid">
+      <div className="hero" id="home">
+        <div className="container-fluid">
           <div
-            class="row align-items-center
+            className="row align-items-center
         \"
           >
-            <div class="col-sm-12 col-md-6">
-              <div class="hero-content">
-                <div class="hero-text">
+            <div className="col-sm-12 col-md-6">
+              <div className="hero-content">
+                <div className="hero-text">
                   <h1>E-Planner</h1>
                   <h2></h2>
-                  <div class="typed-text">Design Your Dream</div>
+                  <div className="typed-text">Design Your Dream</div>
                 </div>
-                <div class="hero-btn">
-                  <a class="btn" href="">
+                <div className="hero-btn">
+                  <a className="btn" href="">
                     About Us
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 d-none d-md-block">
-              <div class="hero-image">
+            <div className="col-sm-12 col-md-6 d-none d-md-block">
+              <div className="hero-image">
                 <img src={imgg} alt="Hero Image" />
               </div>
             </div>
